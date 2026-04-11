@@ -125,11 +125,14 @@ h1 {
    text-align: center;
    clear: both;
    margin: 10px 0px 10px 0px;
+  
 }
 .imgCenterBox{        /* > **/
   display: inline-block;
   /*width: 200px;
   height: 100px;*/
+  min-height: 200px;
+  min-width: 200px;
   position: relative;
   font-family: Arial;
   font-size: 18px;
@@ -143,6 +146,7 @@ a.imgCenterBox{
 .imgCenterBox  img{
   width: 200px;
   height: auto;
+  
 }
 
 .imgCenterText-bottom{
